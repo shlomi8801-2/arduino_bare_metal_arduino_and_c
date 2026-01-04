@@ -48,7 +48,7 @@ next find your board mcu map like so
 
 if the intellesense still doesnt work try editing the c/c++ extention settings
 ![extention](https://github.com/shlomi8801-2/arduino_sim_proj/blob/main/extention.png?raw=true)
-
+or try adding the output of this command ``avr-gcc -xc -E -v -`` to your include path's(this prints the [default include paths for avr-gcc](https://stackoverflow.com/questions/4980819/what-are-the-gcc-default-include-directories))
 
 then from all you learned start coding for example this version of blink:
 ```c
